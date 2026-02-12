@@ -93,7 +93,6 @@ public class shuseki{
         sc.nextInt();
     }
 
-    // 履歴表示
     void showHistory() {
         System.out.print("\n学生IDを入力してください:\n>");
         int id = sc.nextInt();
