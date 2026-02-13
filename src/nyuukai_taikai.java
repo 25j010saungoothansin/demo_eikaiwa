@@ -9,7 +9,6 @@ public class Nyuukai_taikai {
         Scanner scan = new Scanner(System.in);
         StudentManager manager = new StudentManager();
         StudentView view = new StudentView(scan, manager);
-
         manager.loadData();
         view.showMainMenu();
 
@@ -17,7 +16,7 @@ public class Nyuukai_taikai {
     }
 }
 
-// Class quản lý dữ liệu học sinh
+
 class StudentManager {
     private List<NyuukaiTaikai> students = new ArrayList<>();
 
@@ -84,7 +83,7 @@ class StudentManager {
     }
 }
 
-// Class hiển thị và tương tác với người dùng
+
 class StudentView {
     private Scanner scan;
     private StudentManager manager;
@@ -206,7 +205,7 @@ class StudentView {
     }
 }
 
-// Class đại diện cho học sinh
+
 class NyuukaiTaikai {
     private int id;
     private String name;
