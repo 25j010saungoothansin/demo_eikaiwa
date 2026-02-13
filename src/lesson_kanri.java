@@ -75,3 +75,4 @@ public class lesson_kanri {
         } catch (Exception e) {}
     }
 }
+

@@ -7,8 +7,12 @@ public class App {
         Scanner scan = new Scanner(System.in);
         int choice = scan.nextInt();
         if(choice == 1){
-            lesson_kanri lesson= new lesson_kanri();
+            
+         lesson_kanri lesson = new lesson_kanri();
         lesson.start();
+        
+       
+        
         
 
 
